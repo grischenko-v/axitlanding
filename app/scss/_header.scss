@@ -7,7 +7,7 @@
    img{
    	 float: left;
    	 margin-top: 20px;
-   	 margin-left: 80px;
+   	 margin-left: 76px;
    }
    .main-nav{
      float: right;
@@ -82,22 +82,22 @@
         }
     
       .button{      	
-		border: 2px solid white;
-		color: white;
-		width: 132px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		font-size: 11px;	
-		margin-top: 48px;
-		margin-left: 50px;
-		cursor: pointer;
-		vertical-align: middle;
-		text-align: center;
-		&:hover{
-			color:rgb(176, 176, 176);
-			border-color: rgb(176, 176, 176);
-		}
-	  }
+		    border: 2px solid white;
+		    color: white;
+		    width: 132px;
+		    padding-top: 10px;
+		    padding-bottom: 10px;
+		    font-size: 11px;	
+		    margin-top: 50px;
+		    margin-left: 50px;
+		    cursor: pointer;
+		    vertical-align: middle;
+		    text-align: center;
+		    &:hover{
+			    color:rgb(176, 176, 176);
+			    border-color: rgb(176, 176, 176);
+		    }
+	    }
     }
   }
 }

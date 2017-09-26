@@ -3,6 +3,12 @@
 @import "reset";
 @import "fonts";
 @import "header";
+@import "social_media";
+@import "feature-one";
+
+*{
+	font-family: 'Open Sans', sans-serif;
+}
 
 .container{
 	margin: 0 auto;
