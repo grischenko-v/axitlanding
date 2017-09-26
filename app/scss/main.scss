@@ -1,5 +1,15 @@
 @import "susy";
 @import "grid";
-@import "normalize";
+@import "reset";
 @import "fonts";
+@import "header";
 
+.container{
+	margin: 0 auto;
+	width: 1140px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
