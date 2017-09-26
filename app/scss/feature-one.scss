@@ -1,0 +1,68 @@
+.feature-one{
+  background-color: rgb(245, 245, 245);
+  min-height: 600px;
+  article{
+    .tabs{
+       width: 108px;
+       height: 340px;
+       margin-top: 148px;
+       margin-left: 30px;
+       float: left;
+     .tab{
+       box-sizing: border-box;
+       text-align: center;
+       text-transform: uppercase;
+       width: 107px;
+       height: 110px;
+       line-height: 110px;
+       color: white;
+       margin-top: 1px;
+       background-color: rgb(51, 51, 51);
+       border-radius: 5px;
+       font-size:18px;
+       font-weight: bold;
+       &:first-child{
+        margin-top: 0;
+       }
+     }
+     .active{
+       background-color: rgb(255, 139, 56);  
+     }
+    }
+    .discription{
+      float: left;
+      width: 500px;
+      margin-top: 150px;
+      margin-left: 100px;
+      h2{
+        font-size: 21px;
+        line-height: 60px;
+        font-weight: bold;
+      }
+      p{
+        margin-top: 30px;
+        font-size: 14px;
+        color: #bbb;
+      }
+    }
+    .btn{
+      background-color: rgb(255, 139, 56);  
+      color: white;
+      border-radius: 5px;
+      width: 118px;
+      font-size: 15px;      
+      height: 45px;
+      line-height: 44px;
+      text-align: center;
+      margin-top: 45px;
+    }
+
+
+    .city-pic{
+      float: right;
+      margin-top: 160px;
+      margin-right: 15px;
+    }
+
+  }
+}
