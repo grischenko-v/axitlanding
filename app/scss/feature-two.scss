@@ -1,0 +1,59 @@
+.feature-two{
+    background-color: white;
+    min-height: 595px;
+	article{
+		.image{
+			float: left;
+			height: 308px;
+			width: 454px;
+			 box-shadow: 21px 24px 38px -3px #a4a4a4;
+			 margin-top: 125px;
+			 margin-left: 40px;
+		}
+        .main-text{
+        	float: right;
+        	width: 413px;
+        	margin-top: 106px;
+        	margin-right: 40px;
+        	h2{
+              font-weight: bold;
+              font-size: 17px;
+        	}
+        	p{
+        		font-size: 12px;
+        		font-weight: lighter;
+        		color: #bbb;
+        		line-height: 18px;
+        	}
+        	.orange-line{
+        		width: 63px;
+        		margin-top: 28px;
+        		margin-bottom: 36px;
+        		border-bottom: 2px solid rgb(255, 139, 56);
+        	}        	
+        }
+        .title{
+         margin-top: 20px;
+         float: right;
+         width: 435px;
+         .icon{
+        	display: inline-block;   
+        	margin-right: 20px;        	
+          }
+          .title-text{
+        	display: inline-block;
+        	width: 360px;        	
+        	h3{
+        		font-weight: bold;
+        		font-size: 13px;
+        		line-height: 28px;
+        	  }
+        	p{
+        		color: #ddd;
+        		font-size: 12px;
+        		line-height: 18px;
+        	}  
+          }
+        }
+	}	
+}
