@@ -11,6 +11,7 @@
      .tab{
        box-sizing: border-box;
        text-align: center;
+       cursor: pointer;
        text-transform: uppercase;
        width: 107px;
        height: 110px;
@@ -43,6 +44,7 @@
         margin-top: 30px;
         font-size: 14px;
         color: #bbb;
+        line-height: 22px;
       }
     }
     .btn{
@@ -55,6 +57,7 @@
       line-height: 44px;
       text-align: center;
       margin-top: 45px;
+      cursor: pointer;
     }
 
 
