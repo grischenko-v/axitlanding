@@ -1,0 +1,34 @@
+.feature-three{
+    background-color: rgb(245, 245, 245);
+    min-height: 522px;
+    article{
+           .feature-three-text{
+           	width: 471px;
+           	float: left;
+           	margin-top: 100px;
+           	margin-left: 40px;
+           	.orange-line{
+           		width: 65px;
+           		border-bottom: 2px solid rgb(255, 139, 56);
+           	    margin-top: 34px;
+           	    margin-bottom: 34px;
+           	}
+           	h2{
+           		font-weight: bold;
+           		font-size: 14px;
+           	}
+           	p{
+           		margin-top: 20px;
+           		color: #bbb;
+           		font-size: 12px;
+           		line-height: 20px;
+           	}
+           }
+
+    img{
+    	float: right;
+    	margin-top: 90px;
+    	margin-right: 20px;
+    }
+    }
+ }   
