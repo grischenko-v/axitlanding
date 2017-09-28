@@ -1,0 +1,47 @@
+.design{
+	min-height: 320px;
+	background-image: url("../img/design-bg.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	article{
+        padding-top: 60px;
+        .main-title{
+        text-align: center;
+        width: 620px;
+        margin: 0 auto;
+        h1{
+      	  font-size: 36px;
+          text-transform: uppercase;
+          color: white;
+        }
+        p{
+      	  color: #ccc;
+      	  font-size: 13px;
+        }
+        .white-line{
+      	  width: 65px;
+      	  margin: 0 auto;
+      	  margin-top: 28px;
+      	  margin-bottom: 28px;
+      	  border-bottom: 2px solid rgb(255, 255, 255);
+        }
+     }
+     .btn{
+     	margin-left: 504px;
+     	margin-top: 65px;
+     	border: 2px solid white;
+     	display: inline-block;
+     	color: white;     
+     	width: 130px;
+     	height: 36px;
+     	text-align: center;
+     	line-height: 30px;
+     	font-weight: bold;
+     	cursor: pointer;
+     	&:hover{
+     		color: #ccc;
+     		border: 2px solid #ccc;
+     	}
+     }
+	}
+}
