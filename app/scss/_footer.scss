@@ -1,0 +1,19 @@
+footer{
+    background-color: black;
+    min-height: 80px;
+    article{
+     color:white;
+     .footer-socials{
+     	margin: 0 auto;
+     
+       .footer-social{
+     	background-image: url("../img/footer-social-media-icons.png");
+     	background-repeat: no-repeat;
+     	height: 40px;
+     	width: 40px;
+     	display: inline-block;
+
+       }
+     }
+    }
+}
