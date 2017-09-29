@@ -27,14 +27,14 @@
       margin-top: 70px;
       position: relative;
         fieldset{
-          float: left;
-          margin-left:50px;
+          float: left;          
         }
         input[type="text"]{
           display: block;
           -webkit-box-shadow: none !important;;
           box-shadow: none; 
-          width: 525px;     
+          width: 480px;
+          margin-left: 20px;     
           margin-top: 40px;
           font-size: 15px;
           background: transparent  !important;
@@ -62,7 +62,7 @@
           text-align: center;
           position: absolute;
           top:250px;
-          left: 550px;
+          left: 500px;
           font-size: 14px;
           border-radius: 0 0 5px 5px; 
           background: rgb(255, 155, 81) !important;
@@ -90,6 +90,7 @@
           margin-top: 40px;
           resize: none;
           font-size: 15px;
+          margin-right: 20px;
           background: transparent  !important;
           border-top: transparent !important;
           border-left: transparent !important;

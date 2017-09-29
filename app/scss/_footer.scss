@@ -6,15 +6,30 @@ footer{
      color:white;
      .footer-socials{
      	margin: 0 auto;
-        width:340px;
+        width:258px;
        .footer-social{
-       	margin-right: 16px;
-     	background-image: url("../img/footer-social-media-icons.png");
-     	background-repeat: no-repeat;
-     	height: 40px;
-     	width: 40px;
-     	display: inline-block;
+         margin-right: 16px;
+     	 background-image: url("../img/footer-social-media-icons.png");
+     	 background-repeat: no-repeat;
+     	 height: 24px;
+     	 width: 26px;
+     	 display: inline-block;
+
+        &:nth-of-type(2){
+          background-position: -44px 0;        
+        }
+        &:nth-of-type(3){
+           background-position: -95px 0;        
+        }
+        &:nth-of-type(4){
+           background-position: -140px -2px;       
+        }
+        &:nth-of-type(5){
+           background-position: -190px 0;         
+        }
+
         &:last-of-type{
+          background-position: -242px 0;
           margin-right: 0;
         }
        }
@@ -22,6 +37,7 @@ footer{
      .footer-copyright{
      	width: 80px;
      	margin: 0 auto;
+     	margin-top: 10px;
      }
     }
 }
