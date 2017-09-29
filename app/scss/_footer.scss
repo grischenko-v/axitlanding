@@ -1,0 +1,27 @@
+footer{
+    background-color: black;
+    min-height: 80px;
+    padding-top: 20px;
+    article{
+     color:white;
+     .footer-socials{
+     	margin: 0 auto;
+        width:340px;
+       .footer-social{
+       	margin-right: 16px;
+     	background-image: url("../img/footer-social-media-icons.png");
+     	background-repeat: no-repeat;
+     	height: 40px;
+     	width: 40px;
+     	display: inline-block;
+        &:last-of-type{
+          margin-right: 0;
+        }
+       }
+     }
+     .footer-copyright{
+     	width: 80px;
+     	margin: 0 auto;
+     }
+    }
+}
