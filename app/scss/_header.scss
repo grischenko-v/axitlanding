@@ -101,15 +101,15 @@
 	    }
     }
     form{
-    background: white;
-    color:black;
-    height:348px; 
-    width:307px;
-        border-radius: 5px;
-        font-size: 'Open Sans', sans-serif;
-        float: right;
-        margin-top: 139px;
-        margin-right: 20px;
+
+      background: white;
+      color:black;
+      height:348px; 
+      width:307px;
+      border-radius: 5px;   
+      float: right;
+      margin-top: 139px;
+      margin-right: 20px;
     .form-text{
       background-color: rgb(245,245,245);
       width: 100%;
@@ -126,21 +126,25 @@
         text-transform: uppercase;
       }
     }
+
     input[type="text"],input[type="password"]{
       display: block;
       width: 283px;
       height: 30px;   
-      -webkit-box-shadow: none !important;;
+      -webkit-box-shadow: none ;
       box-shadow: none;        
       margin: 0 auto;
       margin-top: 30px;
       font-size: 15px;
-      background: transparent  !important;
-      border-top: transparent !important;
+      background: transparent ;
+      border-top: transparent;
       border-left: transparent !important;
       border-right: transparent !important;
       border-bottom: 2px solid #ccc !important;
       box-shadow: none !important;
+      &.redinputbottom{
+          border-bottom: 2px solid red !important;
+        }
       &:focus{
         outline: none;
         border-top: transparent !important;
@@ -148,8 +152,14 @@
         border-right: transparent !important;
         border-bottom: 2px solid #ccc !important;
         box-shadow: none !important;
+        &.redinputbottom{
+          border-bottom: 2px solid red !important;
+        }
+       }
+      
       }
-    }
+      
+    
     input[type="submit"]{
       display: block;
       width: 100%;      
@@ -179,8 +189,9 @@
          background-color: rgb(245, 155, 71)
       }
     }
+    }
    }
   }
-}
+
 
 	

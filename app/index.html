@@ -38,11 +38,11 @@
       </div>
       <div class = "button transparent">Download</div>
     </article>   
-      <form class="getstarted" method = "POST" action="">
+      <form class="getstarted" method = "POST" action="" name = "headerForm">
         <div class = "form-text"><h2>Try your <span>free</span> trial today</h2></div>
-      	<input type="text" name="name" placeholder = "Name">
-      	<input type="text" name="email" placeholder = "Email">
-        <input type = "password" name = "password" placeholder = "Password">
+      	<input type="text" name="name" id="headrName" placeholder = "Name">
+      	<input type="text" name="email" id="headerEmail" placeholder = "Email">
+        <input type = "password" name = "password" id="headerPass" placeholder = "Password">
         <input type = "submit" name = "button" value = "Get Started">
       </form>   
    </section>
@@ -288,11 +288,11 @@
       </div>
       <form>
       	<fieldset>
-      		<input type="text" name="msg_name" placeholder="Name">
-      		<input type="text" name="msg_email" placeholder="Email">
-      		<input type="text" name="msg_sunject" placeholder="Subject">
+      		<input type="text" name="msg_name" id ="contactName" placeholder="Name">
+      		<input type="text" name="msg_email" id ="contactEmail" placeholder="Email">
+      		<input type="text" name="msg_sunject" id="contactSbj" placeholder="Subject">
       	</fieldset>
-      	<textarea placeholder="Messedge"></textarea>
+      	<textarea placeholder="Messedge" id=contactMsg></textarea>
       	<input type="submit" name = "msg_btn" value = "Send Messedge">
       </form>
     </article> 
